@@ -1,0 +1,196 @@
+@charset "utf-8";
+html{
+	background-color:#17252A;
+	
+}
+body{
+	margin:0;
+}
+#container{
+	margin:auto;
+	width:1500px;
+	
+	
+}
+#masthead {
+	background-image:url("/my-app/src/assets/ozoneparkimages/masthead.jpg") ;
+	padding-left:200px;
+	padding-bottom:10px;
+	padding-top:20px;
+	opacity:70%;
+}
+.logo, .navbuttons{
+	float:right;
+	background-color:#17252A;
+	border:solid thin #455157;
+	border-radius:120px;
+	margin-right:60px;
+	margin-top:30px;
+}
+h1{
+	color: #FEFFFF;
+	font-size: 70px;
+	position: relative;
+	top: 30px;
+	right: 120px;
+	text-shadow: 7px 0px 10px #17242A;
+}
+#navbar {
+clear:right;
+  overflow: hidden;
+  background-color: #17252A;
+	z-index: 10;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #FEFFFF;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar #navbarul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+	
+}
+#navbar #navbarul li {
+	display: inline-block;
+	margin-left:0px;
+	background-color:#2B7A78;
+	max-width:16.455%;
+	min-width:16.403%;
+	text-align:center;
+}
+#navbar #navbarul li:hover {
+	background-color:#113030;
+	border: thin white solid;
+}
+#navbar #navbarul li li a:hover{
+	color:#DEF2F1;
+}
+#navbar #navbarul li:hover ul {
+	display: block;
+	z-index: 5;
+	opacity:0.7;
+	background-color:#2B7A78;
+}
+#navbar #navbarul li ul {
+  position: absolute;
+ width:14%;
+  display: none;
+}
+#navbar #navbarul li ul li { 
+  background:#2B7A78 ; 
+  display: block; 
+
+}
+#navbar #navbarul li ul li a {display:block !important;
+} 
+#navbar #navbarul li ul li:hover {background: #2B7A78;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#welcome{
+	clear:both;
+	top:15px;
+}
+
+#welcome, #navigatepage, #funfacttab{
+	width: 350px;
+	border-bottom: dotted #17252A 2px;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:10px;
+	opacity:60%;
+	
+	
+}
+
+#container #welcome h2, #navigatepage h2{
+	color: #2B7A7B;
+}
+#funfacttab h2{
+	color: #38AAA7;
+	text-shadow: 9px 0px 8px #000000;
+	font-size: 30px;
+}
+#container #welcome p, #funfacttab ol {
+	color: #D4FFFF;
+	font-size: 20px;
+	
+}
+
+#container #briefhistory h2, #navigatepage h3, #funfacttab h3 {
+	color:#D4FFFF;
+}
+#briefhistory h2{
+	font-size:30px;
+}
+#container #briefhistory p, #navigatepage p {
+	color:#839392;
+	font-size:20px;
+}
+
+#navigatepage a, #briefhistory a, #footer a{
+	color:#3AAFA9;
+}
+#navigatepage a:hover, #briefhistory a:hover, #footer a:hover{
+	color:#2B7A7B;
+	background-color:#FEFFFF;
+}
+#briefhistory{
+	float:right;
+	width:70%;
+	clear:left;
+	text-align:justify;
+}
+#panel ol li img {
+	display:block;
+}
+#panel{
+	margin-top:0px;
+	background-color:#0D1517;
+}
+#panel ol li{
+	margin-top:20px;
+}
+#funfacttab h3{
+	text-align:justify;
+}
+.img1{
+	margin-left:210px;
+	border: solid thin #839392;
+	padding:10px;
+}
+.image2{
+	margin-bottom:20px;
+	border: solid thin #839392;
+	padding: 10px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#footer{
+	clear:both;
+	background-color:#0E1619;
+	color:#3A3E3F;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+}
+

@@ -1,0 +1,421 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	background-color:#17252A;
+	
+}
+body{
+	margin:0;
+}
+#container{
+	margin:auto;
+	width:1500px;
+	
+	
+}
+
+#masthead {
+	background-color:#C98947;
+	padding-left:200px;
+	padding-bottom:10px;
+	padding-top:20px;
+	border: thin #2B7A78 solid;
+}
+.logo{
+	float:right;
+	background-color:#17252A;
+	border:solid thin #455157;
+	border-radius:120px;
+	margin-right:60px;
+	margin-top:30px;
+}
+
+h1{
+	color: #FEFFFF;
+	font-size: 70px;
+	position: relative;
+	top: 30px;
+	right: 120px;
+	text-shadow: 7px 0px 10px #17242A;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #17252A;
+	z-index: 10;
+}
+
+#navbar a {
+  display: inline-block;
+  color: #FEFFFF;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#navbar #navbarul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+	
+}
+#navbar #navbarul li {
+	display: inline-block;
+	margin-left:0px;
+	background-color:#2B7A78;
+	max-width:16.455%;
+	min-width:16.403%;
+	text-align:center;
+}
+#navbar #navbarul li:hover {
+	background-color:#113030;
+	border: thin white solid;
+}
+#navbar #navbarul li li a:hover{
+	color:#DEF2F1;
+}
+#navbar #navbarul li:hover ul {
+	display: block;
+	z-index: 5;
+	opacity:0.7;
+	background-color:#2B7A78;
+}
+#navbar #navbarul li ul {
+  position: absolute;
+ width:14%;
+  display: none;
+}
+#navbar #navbarul li ul li { 
+  background:#2B7A78 ; 
+  display: block; 
+
+}
+#navbar #navbarul li ul li a {display:block !important;
+} 
+#navbar #navbarul li ul li:hover {background: #2B7A78;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#info{
+	float:right;
+	width:65%;
+}
+#geography h2, #location h2, form h2, h2.landmark, h2#activ, #contactinfo h2, #demogcopy h2, #housing h2, #transpobus h2 {
+	color:#D4FFFF;
+	font-size: 30px;
+}
+
+#geography p, navigatepage h2, #navigatepage p, #location p, form p, .landmarkblock p, .parkblock p, .activitycontent, .more, #demogcopy p, #housing p , .commerceblock p, #transpobus p{
+	color:#839392;
+	font-size:20px;
+}
+#navigatepage, #funfacttab, #pagestips{
+	width: 350px;
+	border-bottom: dotted #17252A 2px;
+	padding-left:20px;
+	padding-right:20px;	
+	padding-top:10px;
+	padding-bottom:20px;
+	opacity:60%;
+
+}
+#panel{
+	margin-top:0px;
+	background-color:#0D1517;
+	
+}
+#panel ol li{
+	margin-top:20px;
+}
+#navigatepage h2, form h3, #contactinfo h3{
+	color: #2B7A7B;
+}
+#navigatepage h3, #funfacttab h3, #pagestips h3, #demogcopy h3{
+	color:#D4FFFF;
+}
+#navigatepage p {
+	color:#839392;
+	font-size:20px;
+}
+#navigatepage a:hover, .activityblock .activitycontent a:hover, #footer a:hover, #demogcopy a:hover, #funfacttab a:hover{
+	color:#2B7A7B;
+	background-color:#FEFFFF;
+}
+#navigatepage a, .activityblock .activitycontent a, #footer a, #demogcopy a, #funfacttab a{
+	color:#3AAFA9;
+}
+.navpagemore{
+	margin-bottom:25px;
+}
+.span{
+	color:#2B7A78;
+	font-weight:bold;
+	font-size:19px;
+	
+}
+.spanint{
+	font-weight:bold;
+}
+#footer{
+	clear:both;
+	background-color:#0E1619;
+	color:#3A3E3F;
+	text-align:center;
+	padding:20px;
+	font-size:20px;
+	position:relative;
+	top:20px;
+}
+
+form{
+	width: 800px;
+	float:left;
+	border: thin solid #2B7478;
+	padding: 20px;
+	
+}
+.subbutton{
+	font-size:20px;
+	color:#2B7478;
+	background-color:#17252A;
+	border:solid thin;
+	border-radius:0px;
+	padding:15px;
+	
+}
+.subbutton:hover{
+	background-color: #2B7A78;
+	color: #17252A;	
+}
+.resbutton{
+	font-size: 15px;
+	background-color: #17252A;
+	border: solid thin;
+	border-radius: 0px;
+	padding: 15px;
+	color: #C98947;	
+}
+.resbutton:hover, .resbutton1:hover{
+	background-color: #C98947;
+	color:#17252A;
+}
+.resbutton1{
+	font-size:14px;
+	border-radius:0px;
+	border:solid thin;
+	background-color:#17252A;
+	color:#C98947;
+	padding:15px;
+}
+textarea{
+	resize:none;
+	width:453px;
+	height:150px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#mailoption{
+	border-top: thin dashed #C98947;
+	border-bottom: thin dashed #C98947;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	
+
+}
+#mailoption h3{
+	color:#C98947;
+}
+#contactinfo{
+	float:right;
+	width:40%;
+	text-align:center;
+}
+#contactinfo p{
+	border-bottom:#284049 solid thin;
+	padding:10px;
+	color:#839392;
+	font-size:15px;
+}
+.landmark, #activ{
+	margin-left:427px;
+}
+.landmarkblock, .parkblock{
+	border: solid #309FBA thin;
+	border-radius:5px;
+	height:375px;
+	margin-top:25px;
+	margin-bottom:20px;
+	width: 73%;
+	float:right;
+
+}
+.commerceblock{
+	border-bottom: solid #309FBA thin;
+	height:375px;
+	margin-top:25px;
+	margin-bottom:20px;
+	width: 73%;
+	float:right;
+}
+.landmarkblock h3, .parkblock h3, .commerceblock h3{
+	color:#C98947;
+	font-size:20px;
+	margin-left:15px;
+}
+.landimg, .parkimg, .comimage{
+	border-radius:5px;
+	float:left;
+	margin-left:15px;
+}
+.landmarkblock p, .parkblock p, .commerceblock p{
+	float:right;
+	width: 65%;
+	position:relative;
+
+	bottom:60px;
+}
+.parkblock p{
+	margin-top:40px;
+}
+#funfacttab h3, #pagestips h3{
+	text-align:justify;
+}
+#funfacttab h2, #pagestips h2{
+	color: #38AAA7;
+	text-shadow: 9px 0px 8px #000000;
+	font-size: 30px;
+}
+.activityblock{
+	width:70%;
+	float:right;
+	
+	
+	
+}
+.activityimg{
+	border-radius:5px;
+	display:inline-block;
+	margin-left:70px;
+	
+}
+
+.activitytitle {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size:50px;
+	text-align:center;
+	text-decoration: underline;
+	color:#FEFFFF;
+	border-bottom: thin solid #38AAA7;
+	border-top: thin solid #38AAA7;
+}
+.activitycontent{
+	width:90%;
+	text-align:justify;
+	margin:auto;
+}
+li.activityrating{
+	list-style-type: none;
+	font-size:30px;
+	font-weight:bold;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:white;
+	text-align:center;
+}
+.activityrating:before{
+	content:'\2606';
+	margin-left: -20px;
+	margin-right: 10px;
+	font-size:65px;
+	color:#FF860E;
+}
+#info #geography iframe {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#demogcopy{
+	float:right;
+	width:70%;
+}
+#demogcopy .deimg {
+	margin-right:100px;
+}
+.zoomin img {
+
+      width: 600px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+    }
+    .zoomin img:hover {
+      width: 700px;
+     
+    }
+#pagestips{
+	padding-bottom:40px;
+}
+#housing{
+	float:right;
+	width:70%;
+}
+.housepic{
+	border:thin white double;
+	padding:5px;
+	border-radius:5px;
+	
+}
+#housegallery{
+	display:block;
+	margin-left:40px;
+	border-spacing:10px;
+}
+#shopping td{
+	border-right: white soloid thin;
+	border-left: white soloid thin;
+}
+.commerceblock p a {
+	font-size: 15px;
+	background-color: #17252A;
+	border: solid thin;
+	border-radius: 0px;
+	padding: 15px;
+	color: #C98947;
+	text-decoration:none;
+	
+}
+.commerceblock p a:hover, #transpobus li a:hover{
+	background-color: #C98947;
+	color:#17252A;
+}
+#transpobus{
+	float:right;
+}
+#transpobus li{
+	margin-right:30px;
+	margin-bottom:70px;
+	margin-top:30px;
+	
+	display:inline-block;
+	
+}
+#transpobus li a{
+	font-size: 30px;
+	background-color: #17252A;
+	border: solid thin;
+	border-radius: 0px;
+	padding: 15px;
+	color: #C98947;
+	text-decoration:none;
+}
