@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Transportation } from './app.transportation';
+import {TranspoComponent } from './transpo/transpo.component'
 
 @NgModule({
   declarations: [
-    AppComponent, Transportation
+    AppComponent, TranspoComponent
   ],
   imports: [
     BrowserModule,
